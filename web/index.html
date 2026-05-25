@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>尊誉建材</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+<!-- ✅ 固定导航栏 -->
+<header class="bg-white shadow fixed top-0 left-0 w-full z-50 h-[72px]">
+  <div class="max-w-7xl mx-auto flex justify-between items-center h-full px-6">
+
+    <!-- Logo -->
+<a href="index.html" class="flex items-center space-x-3">
+
+  <!-- 图标（Rocai图形部分） -->
+
+  <!-- 文字 -->
+  <div class="flex items-center space-x-2">
+
+    <!-- 英文 -->
+    <span class="text-2xl font-semibold text-black">
+      Rocai
+    </span>
+
+    <!-- 中文 -->
+    <span class="text-lg font-medium text-gray-700">
+      尊誉建材
+    </span>
+
+  </div>
+
+</a>
+</a>
+</a>
+
+    <!-- 菜单 -->
+    <nav class="space-x-6 text-sm">
+      <a href="index.html" class="text-orange-500 font-semibold">首页</a>
+      <a href="products.html">产品中心</a>
+      <a href="cases.html"">案例展示</a>
+      <a href="about.html">关于我们</a>
+      <a href="cases.html">联系我们</a>
+    </nav>
+
+    <!-- 按钮 -->
+
+  </div>
+</header>
+
+<!-- ✅ 页面内容 -->
+<main class="pt-[72px]">
+
+  <!-- 🎯 背景图区域 -->
+  <section class="h-screen bg-cover bg-center relative"
+           style="background-image: url('./images/banner.jpg');">
+       
+
+    <!-- 遮罩 -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- 中间内容 -->
+    <div class="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
+
+      <h2 class="text-5xl font-bold mb-6">
+        尊誉建材 · 筑就品质生活
+      </h2>
+
+      <p class="text-lg mb-8">
+        专注家装建材二十年，为都市精英打造理想居所
+      </p>
+
+      <!-- 按钮组 -->
+      <div class="space-x-4">
+       <a href="products.html" class="bg-orange-500 px-6 py-3 rounded text-white inline-block">
+  探索产品
+</a>
+<a href="contact.html" class="bg-orange-500 px-6 py-3 rounded text-white inline-block">
+  预约咨询
+</a>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- 🔥 底部 -->
+<footer class="bg-[#0b1b2b] text-gray-300 mt-20">
+  <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-4 gap-10">
+    <!-- 公司 -->
+    <div>
+      <h3 class="text-white text-lg font-bold mb-4">尊誉建材</h3>
+      <p class="text-sm leading-relaxed">
+        专注家装建材二十年，为都市精英打造理想居所
+      </p>
+    </div>
+
+    <!-- 快速链接 -->
+    <div>
+      <h3 class="text-white text-lg font-bold mb-4">快速链接</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="index.html" class="hover:text-white">首页</a></li>
+        <li><a href="products.html" class="hover:text-white">产品中心</a></li>
+        <li><a href="cases.html" class="hover:text-white">案例展示</a></li>
+        <li><a href="about.html" class="hover:text-white">关于我们</a></li>
+        <li><a href="contact.html" class="hover:text-white">联系我们</a></li>
+      </ul>
+    </div>
+
+    <!-- 联系方式 -->
+    <div>
+      <h3 class="text-white text-lg font-bold mb-4">联系方式</h3>
+      <p class="text-sm mb-2">电话：400-888-8888</p>
+      <p class="text-sm mb-2">邮箱：info@zunyu.com</p>
+      <p class="text-sm">地址：上海市浦东新区世纪大道100号</p>
+    </div>
+
+    <!-- 关注我们 -->
+   <div class="flex space-x-6 items-center">
+
+  <!-- 微信 -->
+  <div class="relative group cursor-pointer">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+         class="w-6 h-6">
+
+    <!-- 二维码框 -->
+    <div class="absolute bottom-12 left-1/2 -translate-x-1/2
+                opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100
+                transition duration-200
+                bg-white p-3 rounded-lg shadow-xl">
+
+      <!-- 600x600等比缩小 -->
+      <img src="./images/wechat.jpg"
+           class="w-[150px] h-[150px] object-cover rounded">
+    </div>
+  </div>
+
+  <!-- 小红书 -->
+  <div class="relative group cursor-pointer">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968835.png"
+         class="w-6 h-6">
+
+    <div class="absolute bottom-12 left-1/2 -translate-x-1/2
+                opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100
+                transition duration-200
+                bg-white p-3 rounded-lg shadow-xl">
+
+      <img src="./images/xhs.jpg"
+           class="w-[150px] h-[150px] object-cover rounded">
+    </div>
+  </div>
+
+  <!-- Facebook -->
+  <div class="relative group cursor-pointer">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+         class="w-6 h-6">
+
+    <div class="absolute bottom-12 left-1/2 -translate-x-1/2
+                opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100
+                transition duration-200
+                bg-white p-3 rounded-lg shadow-xl">
+
+      <img src="./images/facebook.jpg"
+           class="w-[150px] h-[150px] object-cover rounded">
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+  <!-- 分割线 -->
+  <div class="border-t border-gray-700"></div>
+
+  <!-- 版权 -->
+  <div class="text-center text-sm py-4 text-gray-400">
+    © 2026 尊誉建材 · 保留所有权利 · 沪ICP备12345678号
+  </div>
+
+</footer>
+</body>
+</html>
